@@ -5,7 +5,7 @@ var score
 
 func _ready():
 	randomize() 
-	new_game()
+	
 
 func _on_Player_hit():
 	pass
