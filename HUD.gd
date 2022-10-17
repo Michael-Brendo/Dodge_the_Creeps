@@ -12,7 +12,7 @@ func show_game_over():
 	
 	yield($MessageTimer, "timeout")
 	
-	$Message.text = "Dodge the/nCreapes!"
+	$Message.text = "Dodge the Creapes!"
 	$Message.show()
 	
 	yield(get_tree().create_timer(1), "timeout")
